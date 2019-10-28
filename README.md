@@ -15,6 +15,6 @@ You are welcome to fork and use this Postman collection or OpenAPI definition. B
 
 This README for these SalesForce API definitions will remain the central place to engage with and evolve this set of definitions. If there are specific paths you'd like to see added to this collection, or find things missing, please submit a GitHub issue for this repository to let us know, or feel free to submit a pull request against any of the definitions or this README.
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/baaafb7925fba6aa999b)
+<center>[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/baaafb7925fba6aa999b)</center>
 
 
