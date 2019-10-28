@@ -1,6 +1,5 @@
 # SalesForce API Definitions
-This is a working repository for SalesForce API definitions, providing machine readable artifacts that can be used to work with their REST API.
-
+This is a working repository for SalesForce API definitions, providing machine readable artifacts that can be used to work with their REST API--helping streamling your integration with the very powerful API.
 
 - [Documentation](https://documenter.getpostman.com/view/35240/SVzua1S6?version=latest)
 - [Postman Collection](https://www.getpostman.com/collections/baaafb7925fba6aa999b)
@@ -15,3 +14,7 @@ You are welcome to fork and use this Postman collection or OpenAPI definition. B
 - Source of Truth - The Postman collection is the source of truth here, and the OpenAPI is generated from that. We will be maintaining and evolving the Postman collection, then generation API and publishing both here.
 
 This README for these SalesForce API definitions will remain the central place to engage with and evolve this set of definitions. If there are specific paths you'd like to see added to this collection, or find things missing, please submit a GitHub issue for this repository to let us know, or feel free to submit a pull request against any of the definitions or this README.
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/baaafb7925fba6aa999b)
+
+
