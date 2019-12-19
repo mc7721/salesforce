@@ -1,0 +1,351 @@
+{
+    "id": "b164a63114aade88adb2678c60e6bce3",
+    "name": "Salesforce",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "40544481531c1df9c0def350644dda9a",
+            "name": "Get Version",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}",
+            "description": "Lists available resources for the specified API version, including resource name and URI.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "20b60dc6151ee99d2afbcd12afcb4d68",
+            "name": "Get Version Sobjects",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects",
+            "description": "Lists the available objects and their metadata for your organization's data. In addition, it provides the organization encoding, as well as maximum batch size permitted in queries. For more information, see Internationalization and Character Sets (http:\/\/www.salesforce.com\/us\/developer\/docs\/api\/Content\/implementation_considerations.htm#sforce_api_other_internationalization).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "f64bad0bcd94606440cd89a263c42ebf",
+            "name": "Get Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}",
+            "description": "Retrieves the metadata for an object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "20ed88d61be0e61d2457f0d7267aed1a",
+            "name": "Add Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}",
+            "description": "Creates a new object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed79d05c01e503d3f4cc6796ef61c13f",
+            "name": "Get Version Sobjects Sobject Describe",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/describe",
+            "description": "Completely describes the individual metadata at all levels for the specified object. For example, this can be used to retrieve the fields, URLs, and child relationships for the Account object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c7d7dbc61da89e477c4adb48d5c44a9",
+            "name": "Get Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/{id}",
+            "description": "Retrieves individual records for an object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "Optional list of fields used to return values for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "fcbe7bcdc6f821033dea98ede5874193",
+            "name": "Delete Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/{id}",
+            "description": "Deletes a record.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "bba4706e9f6e3386e7629c83884df02b",
+            "name": "Get Version Sobjects Sobject  Blobfield",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/{id}\/{blobField}",
+            "description": "Retrieves the specified blob field from an individual record. Because blob fields contain binary data, you can't use JSON or XML to retrieve this data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "Optional list of fields used to return values for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "c69d23a8db6810614bc39d96f35dfe9b",
+            "name": "Get Version Sobjects User  Password",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/User\/{id}\/password",
+            "description": "Gets password expiration status for a given user. The session must have permission to access the given user password information, otherwise an error response is returned.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "ac46d685aedf396eae9349feea6a322a",
+            "name": "Add Version Sobjects User  Password",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/User\/{id}\/password",
+            "description": "Changes the password for a given user ID. The new password must conform to the password policies for the organization, otherwise you will get an error response. You can only change one password per request.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "9ca673862948f7290c10d2f0bca710d4",
+            "name": "Delete Version Sobjects User  Password",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/User\/{id}\/password",
+            "description": "Resets an user password. Salesforce will reset the user password to an auto-generated password, which will be returned in the response.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "004cc54776e0edc6538c07c22466e7e0",
+            "name": "Get Version Query",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/query",
+            "description": "Executes the specified SOQL query. If the initial query returns only part of the results, the end of the response will contain a field called nextRecordsUrl. In such cases, use the resource {version}\/query\/{id} to request the next batch of records and repeat until all records have been retrieved.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "636072d98e5d8da6cf179adcd3b6e60e",
+            "name": "Get Version Query",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/query\/{id}",
+            "description": "Retrieves the remaining SOQL query results using the identifier within the field \"nextRecordsUrl\" value (i.e. \"nextRecordsUrl\" : \"\/services\/data\/v24.0\/query\/01gD0000002HU6KIAW-2000\") located at the end of the initial query results. Requests the next batch of records and you could repeat (using the corresponding identifier) until all records have been retrieved.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        },
+        {
+            "id": "0ffcb656e326628770add1397e9bb60b",
+            "name": "Get Version Search",
+            "url": "httpsna14.salesforce.com\/services\/data\/{version}\/search",
+            "description": "Executes the specified SOSL search. The search string must be URL-encoded.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "rawModeData": ""
+        }
+    ]
+}
