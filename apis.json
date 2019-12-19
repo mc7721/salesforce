@@ -1,0 +1,153 @@
+{
+    "name": "Salesforce",
+    "description": "Build more meaningful and lasting relationships and connect with your customers across sales, customer service, marketing, communities, apps, analytics, and more using our Customer Success Platform. Try for Free.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/175-salesforce.jpg",
+    "tags": [
+        "baas",
+        "crm",
+        "customers",
+        "databases",
+        "have api",
+        "have swagger",
+        "notifications",
+        "paas",
+        "productivity",
+        "relative data",
+        "service api",
+        "spreadsheets",
+        "wearables"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/salesforce\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Salesforce Sandbox",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/175-salesforce.jpg",
+            "humanURL": "http:\/\/developer.salesforce.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/salesforce-sandbox-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/salesforce-sandbox.json"
+                }
+            ]
+        },
+        {
+            "name": "Salesforce",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/175-salesforce.jpg",
+            "humanURL": "http:\/\/developer.salesforce.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/salesforce-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/salesforce.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/developer.salesforce.com"
+        },
+        {
+            "type": "Base",
+            "url": "https:\/\/na1.salesforce.com"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/developer.salesforce.com\/blogs\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/SforceBlog"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/salesforce"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/salesforce"
+        },
+        {
+            "type": "Email",
+            "url": "legal@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "copyright@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "legalcompliance@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "trademarks@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacymark@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "marketingcloudsupport@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@desk.com"
+        },
+        {
+            "type": "Email",
+            "url": "credits@salesforce.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@salesforce.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/salesforce"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/175-2019-09-03-17-38-06.json"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/partners.salesforce.com\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/salesforcedevs"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/salesforce"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/salesforce.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/developer.salesforce.com\/"
+        }
+    ]
+}
