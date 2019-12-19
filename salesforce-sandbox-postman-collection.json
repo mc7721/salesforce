@@ -1,0 +1,596 @@
+{
+    "id": "4986b71a5bf35e947b6b84f451e3c15e",
+    "name": "Salesforce Sandbox",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "28ee6ee87d2959c9ab21c80062de430f",
+            "name": "Get",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/",
+            "description": "Lists summary information about each Salesforce version currently available, including the version, label, and a link to each version's root.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "04678ae2be4397561a92a592a4697a7b",
+            "name": "Get Version",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}",
+            "description": "Lists available resources for the specified API version, including resource name and URI.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "defb09b44777817d898ef8fcefc55e9a",
+            "name": "Get Version Sobjects",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects",
+            "description": "Lists the available objects and their metadata for your organization's data. In addition, it provides the organization encoding, as well as maximum batch size permitted in queries. For more information, see Internationalization and Character Sets (http:\/\/www.salesforce.com\/us\/developer\/docs\/api\/Content\/implementation_considerations.htm#sforce_api_other_internationalization).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "5427c3c4acf6e1b1805d85b7e9917d84",
+            "name": "Get Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/{sobject}",
+            "description": "Retrieves the metadata for an object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sobject",
+                    "description": "A Salesforce's object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff6f7c06fe94febc107bf073f44de468",
+            "name": "Post Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/{sobject}",
+            "description": "Creates a new object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sobject",
+                    "description": "A Salesforce's object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "3920afb7a86849d8fa47d224be93573c",
+            "name": "Get Version Sobjects Sobject Describe",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/{sobject}\/describe",
+            "description": "Completely describes the individual metadata at all levels for the specified object. For example, this can be used to retrieve the fields, URLs, and child relationships for the Account object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sobject",
+                    "description": "A Salesforce's object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "0478f7623f76cd1d1fea139e33ce6731",
+            "name": "Get Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/{sobject}\/{id}",
+            "description": "Retrieves individual records for an object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sobject",
+                    "description": "A Salesforce's object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Optional list of fields used to return values for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "499a270730bb8c81141ca18d613da142",
+            "name": "Delete Version Sobjects Sobject",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/{sobject}\/{id}",
+            "description": "Deletes a record.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sobject",
+                    "description": "A Salesforce's object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "5acb10ed4a541ff3b10f5f266f18f538",
+            "name": "Get Version Sobjects Sobject Blobfield",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/{sobject}\/{id}\/{blobField}",
+            "description": "Retrieves the specified blob field from an individual record. Because blob fields contain binary data, you can't use JSON or XML to retrieve this data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sobject",
+                    "description": "A Salesforce's object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "Optional list of fields used to return values for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "blobField",
+                    "description": "A Salesforce's object blob field.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "c697892c061fcc474be81932acbb4205",
+            "name": "Get Version Sobjects User Password",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/User\/{id}\/password",
+            "description": "Gets password expiration status for a given user. The session must have permission to access the given user password information, otherwise an error response is returned.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "7e085acba452e63273af1b43b07d6e89",
+            "name": "Post Version Sobjects User Password",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/User\/{id}\/password",
+            "description": "Changes the password for a given user ID. The new password must conform to the password policies for the organization, otherwise you will get an error response. You can only change one password per request.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bc2cdfdec5d583793f1b91188f0b9bb",
+            "name": "Delete Version Sobjects User Password",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/sobjects\/User\/{id}\/password",
+            "description": "Resets an user password. Salesforce will reset the user password to an auto-generated password, which will be returned in the response.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "47d3911db2aa1400ef725dd9e25af1b2",
+            "name": "Get Version Query",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/query",
+            "description": "Executes the specified SOQL query. If the initial query returns only part of the results, the end of the response will contain a field called nextRecordsUrl. In such cases, use the resource {version}\/query\/{id} to request the next batch of records and repeat until all records have been retrieved.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "q",
+                    "description": "A SOQL query.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "9f08f339215b9582848a85c6f9ef0b27",
+            "name": "Get Version Query",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/query\/{id}",
+            "description": "Retrieves the remaining SOQL query results using the identifier within the field \"nextRecordsUrl\" value (i.e. \"nextRecordsUrl\" : \"\/services\/data\/v24.0\/query\/01gD0000002HU6KIAW-2000\") located at the end of the initial query results. Requests the next batch of records and you could repeat (using the corresponding identifier) until all records have been retrieved.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "A Salesforce's object ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        },
+        {
+            "id": "eac8c4454f2e8af62726f99ad01498ec",
+            "name": "Get Version Search",
+            "url": "httpsna14.salesforce.com\/services\/data\/\/{version}\/search",
+            "description": "Executes the specified SOSL search. The search string must be URL-encoded.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "An API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "q",
+                    "description": "A SOQL query.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4986b71a5bf35e947b6b84f451e3c15e",
+            "rawModeData": ""
+        }
+    ]
+}
