@@ -1,5 +1,5 @@
 {
-    "id": "b164a63114aade88adb2678c60e6bce3",
+    "id": "027b34923590666bbb46b8cc3015a39a",
     "name": "Salesforce",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "40544481531c1df9c0def350644dda9a",
+            "id": "82795fa40f79439979ad30bb2ec0a23a",
             "name": "Get Version",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}",
             "description": "Lists available resources for the specified API version, including resource name and URI.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "20b60dc6151ee99d2afbcd12afcb4d68",
+            "id": "91946aaf0200e0b1bded86c52fcebbec",
             "name": "Get Version Sobjects",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects",
             "description": "Lists the available objects and their metadata for your organization's data. In addition, it provides the organization encoding, as well as maximum batch size permitted in queries. For more information, see Internationalization and Character Sets (http:\/\/www.salesforce.com\/us\/developer\/docs\/api\/Content\/implementation_considerations.htm#sforce_api_other_internationalization).",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "f64bad0bcd94606440cd89a263c42ebf",
+            "id": "1625e4711308a643c312d097dcfef5fc",
             "name": "Get Version Sobjects Sobject",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}",
             "description": "Retrieves the metadata for an object.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "20ed88d61be0e61d2457f0d7267aed1a",
+            "id": "bec178b7b540254ccd2f93fbe1aba89a",
             "name": "Add Version Sobjects Sobject",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}",
             "description": "Creates a new object.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "ed79d05c01e503d3f4cc6796ef61c13f",
+            "id": "377cfe132a003494e2673f9a87eaa52a",
             "name": "Get Version Sobjects Sobject Describe",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/describe",
             "description": "Completely describes the individual metadata at all levels for the specified object. For example, this can be used to retrieve the fields, URLs, and child relationships for the Account object.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "9c7d7dbc61da89e477c4adb48d5c44a9",
+            "id": "d70a9762aee4f4591e0fafd3b6de6a50",
             "name": "Get Version Sobjects Sobject",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/{id}",
             "description": "Retrieves individual records for an object.",
@@ -152,11 +152,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "fcbe7bcdc6f821033dea98ede5874193",
+            "id": "6d0e6cca9516c8a63f80ff540067d2e3",
             "name": "Delete Version Sobjects Sobject",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/{id}",
             "description": "Deletes a record.",
@@ -175,11 +175,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "bba4706e9f6e3386e7629c83884df02b",
+            "id": "5a30c8bf8d8f09a76465cb9e2f4047a2",
             "name": "Get Version Sobjects Sobject  Blobfield",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/{sobject}\/{id}\/{blobField}",
             "description": "Retrieves the specified blob field from an individual record. Because blob fields contain binary data, you can't use JSON or XML to retrieve this data.",
@@ -206,11 +206,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "c69d23a8db6810614bc39d96f35dfe9b",
+            "id": "731252880d72af7b8ca5994757041c75",
             "name": "Get Version Sobjects User  Password",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/User\/{id}\/password",
             "description": "Gets password expiration status for a given user. The session must have permission to access the given user password information, otherwise an error response is returned.",
@@ -229,11 +229,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "ac46d685aedf396eae9349feea6a322a",
+            "id": "1d23dd5e3a967ef3848c5afbe66d2a10",
             "name": "Add Version Sobjects User  Password",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/User\/{id}\/password",
             "description": "Changes the password for a given user ID. The new password must conform to the password policies for the organization, otherwise you will get an error response. You can only change one password per request.",
@@ -252,11 +252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "9ca673862948f7290c10d2f0bca710d4",
+            "id": "8d5d52ac2f03f10f16864197b8056e6a",
             "name": "Delete Version Sobjects User  Password",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/sobjects\/User\/{id}\/password",
             "description": "Resets an user password. Salesforce will reset the user password to an auto-generated password, which will be returned in the response.",
@@ -275,11 +275,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "004cc54776e0edc6538c07c22466e7e0",
+            "id": "13986e355be245b682516158385f3bd5",
             "name": "Get Version Query",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/query",
             "description": "Executes the specified SOQL query. If the initial query returns only part of the results, the end of the response will contain a field called nextRecordsUrl. In such cases, use the resource {version}\/query\/{id} to request the next batch of records and repeat until all records have been retrieved.",
@@ -298,11 +298,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "636072d98e5d8da6cf179adcd3b6e60e",
+            "id": "51de5b5d0abbb57eed75eb4aca6e7187",
             "name": "Get Version Query",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/query\/{id}",
             "description": "Retrieves the remaining SOQL query results using the identifier within the field \"nextRecordsUrl\" value (i.e. \"nextRecordsUrl\" : \"\/services\/data\/v24.0\/query\/01gD0000002HU6KIAW-2000\") located at the end of the initial query results. Requests the next batch of records and you could repeat (using the corresponding identifier) until all records have been retrieved.",
@@ -321,11 +321,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         },
         {
-            "id": "0ffcb656e326628770add1397e9bb60b",
+            "id": "f68fce3bb8c06f27699e0186a32daafc",
             "name": "Get Version Search",
             "url": "httpsna14.salesforce.com\/services\/data\/{version}\/search",
             "description": "Executes the specified SOSL search. The search string must be URL-encoded.",
@@ -344,7 +344,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b164a63114aade88adb2678c60e6bce3",
+            "collectionId": "027b34923590666bbb46b8cc3015a39a",
             "rawModeData": ""
         }
     ]
